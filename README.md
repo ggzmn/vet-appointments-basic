@@ -2,7 +2,7 @@
 
 Full-stack CRUD app for scheduling vet appointments — React + TanStack Query on the frontend, Express + SQLite (raw SQL) on the backend. No ORM, no monorepo tooling.
 
-```
+```text
 canine-scheduler/
 ├── backend/
 │   ├── db/
@@ -17,11 +17,11 @@ canine-scheduler/
 │   └── package.json
 ├── frontend/
 │   ├── src/
-│   │   ├── api/          (funciones que llaman al backend)
-│   │   ├── hooks/        (useQuery/useMutation custom hooks)
-│   │   ├── store/        (Zustand)
+│   │   ├── api/
+│   │   ├── hooks/
+│   │   ├── store/
 │   │   ├── components/
 │   │   └── App.tsx
 │   └── package.json
 └── README.md
-```
+```no
