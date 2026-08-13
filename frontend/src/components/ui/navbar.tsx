@@ -11,7 +11,6 @@ export default function Navbar() {
       flex="fit-content"
       width="full"
       bg="teal.500"
-      borderRadius="full"
     >
       {NAV_ITEMS.map(({ path, label }) => (
         <Button key={path} asChild variant="ghost" color="white" fontSize="lg">

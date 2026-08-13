@@ -4,7 +4,7 @@ import { Outlet } from "react-router";
 
 export function Layout() {
   return (
-    <Container p="10">
+    <Container px="14">
       <Navbar />
       <Outlet />
     </Container>

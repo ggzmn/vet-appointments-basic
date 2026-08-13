@@ -11,7 +11,7 @@ export default function QuicklyActions() {
   return (
     <HStack gap="4" mt="6" wrap="wrap">
       {QUICK_ACTIONS.map(({ path, label }) => (
-        <Button key={path} asChild colorPalette="orange">
+        <Button key={path} asChild colorPalette="blue">
           <Link to={path}>{label}</Link>
         </Button>
       ))}
