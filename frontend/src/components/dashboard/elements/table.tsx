@@ -18,7 +18,15 @@ const APPOINTMENTS = [
   {
     petName: "Buddy",
     ownerName: "Michael Brown",
-    time: "01:15 PM",
+    time: "01:00 PM",
+    registerDate: new Date().toLocaleString(),
+    description: "Skin irritation and allergy consultation",
+  },
+
+  {
+    petName: "Nala",
+    ownerName: "Gaby G",
+    time: "02:00 PM",
     registerDate: new Date().toLocaleString(),
     description: "Skin irritation and allergy consultation",
   },
